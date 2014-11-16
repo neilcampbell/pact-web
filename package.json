@@ -1,0 +1,49 @@
+{
+  "name": "pact-website",
+  "version": "0.0.1",
+  "description": "Website for the Pact open source library.",
+  "homepage": "https://github.com/neilcampbell/pact-website",
+  "keywords": [
+    "pact",
+    "pact-net",
+    "pact-jvm"
+  ],
+  "author": "Neil Campbell",
+  "maintainers": [
+    "Neil Campbell <neil@codecise.com>"
+  ],
+  "contributors": [
+    "Neil Campbell <neil@codecise.com>"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/neilcampbell/pact-website.git"
+  },
+  "engines" : {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "2.x",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-text": "2.x",
+    "docpad-plugin-jade": "2.x",
+    "docpad-plugin-related": "2.x",
+    "marked": "*",
+    "bower": "~1"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.x",
+    "bower": "~1"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install"
+  }
+}
