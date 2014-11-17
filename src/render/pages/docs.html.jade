@@ -1,0 +1,10 @@
+---
+title: Docs
+layout: page
+pageOrder: 3
+---
+
+nav.linklist
+  each doc in getCollection('docs').toJSON()
+    li
+      a(href=doc.url)= doc.title

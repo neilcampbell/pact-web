@@ -15,31 +15,31 @@
   "contributors": [
     "Neil Campbell <neil@codecise.com>"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/neilcampbell/pact-website.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/neilcampbell/pact-website.git"
   },
-  "engines" : {
+  "engines": {
     "node": "0.10.x",
     "npm": "1.4.x"
   },
   "dependencies": {
-    "docpad": "6.x",
-    "docpad-plugin-cleanurls": "2.x",
-    "docpad-plugin-coffeescript": "2.x",
-    "docpad-plugin-eco": "2.x",
-    "docpad-plugin-less": "2.x",
-    "docpad-plugin-marked": "2.x",
-    "docpad-plugin-partials": "2.x",
-    "docpad-plugin-stylus": "2.x",
-    "docpad-plugin-text": "2.x",
-    "docpad-plugin-jade": "2.x",
-    "docpad-plugin-related": "2.x",
+    "docpad": "~6.69.1",
+    "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-coffeescript": "~2.4.0",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-less": "~2.4.1",
+    "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-partials": "~2.9.1",
+    "docpad-plugin-stylus": "~2.8.0",
+    "docpad-plugin-text": "~2.3.2",
+    "docpad-plugin-jade": "~2.8.0",
+    "docpad-plugin-related": "~2.2.2",
     "marked": "*",
     "bower": "~1"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "2.x",
+    "docpad-plugin-livereload": "~2.6.0",
     "bower": "~1"
   },
   "main": "node_modules/docpad/bin/docpad-server",

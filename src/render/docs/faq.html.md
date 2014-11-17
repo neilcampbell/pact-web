@@ -1,3 +1,8 @@
+---
+title: FAQ
+layout: page
+tags: ['faq']
+---
 # Frequently asked questions
 
 ### Do I still need end-to-end tests?
