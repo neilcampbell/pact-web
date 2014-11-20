@@ -36,7 +36,8 @@
     "docpad-plugin-jade": "~2.8.0",
     "docpad-plugin-related": "~2.2.2",
     "marked": "*",
-    "bower": "~1"
+    "bower": "~1",
+    "docpad-plugin-livereload": "~2.6.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.6.0",
