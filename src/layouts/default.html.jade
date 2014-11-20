@@ -71,9 +71,10 @@ html(lang="en")
             | CT
         .navbar-collapse.collapse
           ul.nav.navbar-nav.navbar-right
+
             each doc in getCollection('pages').toJSON()
-              - activeClass = (document.url === doc.url) ? 'active' : null
-              li(typeof="sioc:Page", about=doc.url, class=activeClass)
+              - activeClass = ((document.url === '/' && doc.url === document.url) || (doc.url !== '/' && document.url.indexOf(doc.url) > -1)) ? 'active' : null;
+              li(is-home=isHome is-desc=isDescendantOrSelf typeof="sioc:Page", about=doc.url, class=activeClass)
                 a(href=doc.url, property="dc:title")= doc.title
   
     != content
