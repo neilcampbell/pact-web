@@ -5,7 +5,7 @@
 /* OVERALL ASPECT */
 
 body {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -13,7 +13,7 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    
+
     margin-top: 70px;
 }
 
@@ -63,7 +63,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -124,7 +124,8 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+    /*background-color: #1B7FC2;*/
+    background: url(../img/hero.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -227,20 +228,38 @@ a:after {
 	padding-bottom: 30px;
 }
 
-#f i {
-	color: #bdbdbd;
-	font-size: 30px;
-	padding: 20px;
+#f a {
+    float: left;
+    color: #bdbdbd;
 }
 
-#f i:hover {
-	color: #3498db;
+#f a:hover {
+    color: #3498db;
+}
+
+#f i {
+	font-size: 30px;
+	padding: 0px 20px 0px 20px;
+}
+
+#f span {
+    display: block;
+}
+
+#f .centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#f .icons {
+    display: table;
+    padding: 20px 0px;
 }
 
 /****** SECTIONS *****/
 
 .w {
-	padding-top: 35px;
+	padding: 35px 0px;
 }
 
 .w h4 {

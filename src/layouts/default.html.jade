@@ -65,10 +65,7 @@ html(lang="en")
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a(class="navbar-brand" href="/")
-            | P
-            i.fa.fa-adn
-            | CT
+          a(class="navbar-brand" href="/") Pact
         .navbar-collapse.collapse
           ul.nav.navbar-nav.navbar-right
 
@@ -83,18 +80,25 @@ html(lang="en")
       .container
         .row.centered
           .col-lg-8.col-lg-offset-2
-            h4 Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+            h4 Made with 
+              i.fa.fa-heart
+            p Pact is free and open-source under the MIT License.
     
     footer#f
       .container
-        .row.centered
-          a(href="#")
+        .row.centered.icons
+          a(href="https://twitter.com/pact_up" target="_blank")
             i.fa.fa-twitter
-          a(href="#")
-            i.fa.fa-facebook
-          a(href="#")
+            span Twitter
+          a(href="https://github.com/realestate-com-au/pact" target="_blank")
             i.fa.fa-github
+            span Ruby
+          a(href="https://github.com/DiUS/pact-jvm" target="_blank")
+            i.fa.fa-github
+            span JVM
+          a(href="https://github.com/SEEK-Jobs/pact-net" target="_blank")
+            i.fa.fa-github
+            span .NET
 
       div.last-updated.centered Last updated at #{site.date}
 
